@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parallax Website Demo</title>
+  <title>GIFTING GURU</title>
+
+  <!-- tab logo -->
+  <link rel="shortcut icon" href="./img/tab_logo.png" type="image/png">
+
+  <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
+
+
 
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,38 +20,69 @@
 </head>
 <body>
 
-  <nav>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="./img/gifting_guru_logo.webp"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#gift_button">GIFT <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about_us">ABOUT</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact_us">CONTACT</a>
+      </li>
+     
+    </ul>
+
+  </div>
+</nav>
 
 
   <div class="pimg1">
     <div class="ptext">
-      <span class="border">
-        GIFT
-      </span>
+      <button id="gift_button" class="border">SEND A GIFT</button>
     </div>
   </div>
 
   <section class="section section-light">
-    <h2>Section One</h2>
+    <h2>HOW IT WORKS</h2>
+    <hr>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+      Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
     </p>
   </section>
 
   <div class="pimg2">
     <div class="ptext">
-      <span class="border trans">
-        Image Two Text
-      </span>
+      <button class="border trans how_it_works">
+        <img clas="hide_on_hover" src="./img/tab_logo.png">
+        <p class="show_on_hover">FILL OUT A BRIEF <br>PERSONA ABOUT <br>THE PERSON <br>YOU ARE GIFTING TO</p>
+      </button>
+      <button class="border trans how_it_works">
+        <img clas="hide_on_hover" src="./img/tab_logo.png">
+        <p class="show_on_hover">SUBMIT IT FOR<br> EVALUATION</p>
+      </button>
+      <button class="border trans how_it_works">
+        <img clas="hide_on_hover" src="./img/tab_logo.png">
+        <p class="show_on_hover">RECEIVE <br>PERFECTLY CURATED GIFT <br>RECOMMENDATIONS,<br> INSTANTLY!</p>
+      </button>
     </div>
   </div>
 
+
   <section class="section section-dark">
-    <h2>Section Two</h2>
+    <h2 id="about_us">ABOUT US</h2>
+    <hr style="background-color: white;">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+      Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
     </p>
   </section>
 
@@ -57,19 +95,55 @@
   </div>
 
   <section class="section section-dark">
-    <h2>Section Three</h2>
+    <h2>PEOPLE INVOLVED</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
     </p>
   </section>
 
   <div class="pimg1">
+
     <div class="ptext">
-      <span class="border">
-        GG
+      <span id="contact_us" class="border" type="button" data-toggle="modal" data-target="#exampleModal">
+
+        CONTACT US
       </span>
+
+
     </div>
   </div>
+
+  <!-- Modal - For Contacting / Email -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Email US</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </div>
+    </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

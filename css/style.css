@@ -78,3 +78,29 @@ body, html{
     background-attachment:scroll;
   }
 }
+
+
+/*display when hover */
+
+button.how_it_works {
+  display: inline-block; 
+  border-radius: 50%;
+  text-align: center;
+  margin: 2rem;
+}
+p.show_on_hover {
+  opacity: 0; 
+  font-size: 1rem;
+   text-decoration: none;
+}
+
+img.hide_on_hover {
+  opacity: 1; 
+}
+img.hide_on_hover:hover {
+  opacity: 0; 
+}
+
+p.show_on_hover:hover {
+  opacity: 1; 
+}
