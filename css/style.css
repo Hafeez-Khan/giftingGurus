@@ -101,7 +101,7 @@ body, html{
   text-align: center;
   margin: 2rem;
   padding: 10rem;
-  background-color: green;
+  /*background-color: green;*/
 }
 p.show_on_hover {
   opacity: 0; 
@@ -131,7 +131,7 @@ p.show_on_hover:hover {
 /* circle size and shape */
 .circles_size_position {
   /*margin-bottom: 10rem;*/
-  background-color: green;
+  /*background-color: green;*/
 }
 /* subtitle for 3 pieces */
 .subtitle {

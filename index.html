@@ -20,8 +20,10 @@
 </head>
 <body>
 
+
+<div class="pimg1">
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav style="opacity: 0.8;" class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><img src="./img/gifting_guru_logo.webp"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -46,7 +48,6 @@
 </nav>
 
 
-  <div class="pimg1">
     <div class="ptext">
       <blockquote style="font-size: 2.5rem; font-color:black; margin-bottom: 5%; margin-top: 0%;" class="blockquote">
         <p class="mb-0">Lets Find you a GIFT.</p>
@@ -55,55 +56,69 @@
     </div>
   </div>
 
-  <section class="section section-light">
-    <h2>HOW IT WORKS</h2>
+  <section class="pimg3 section section-light">
+    <h2 style="color: black;">HOW IT WORKS</h2>
     <hr>
-    <p>
-      Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
-    </p>
-  </section>
-
-<!--  -->
-  <div class="pimg2 circles_size_position row">
+     <div class=" circles_size_position row">
         <div style="margin-top: 10%;" class="col ptext">
-          <!-- <div style="background-color: orange;" class="ptext"> -->
             <span style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
               <img src="./img/tab_logo.png">
             </span>
             <p class="subtitle">FILL OUT A PERSONA</p>
-          <!-- </div> -->
         </div>
 
         <div style="margin-top: 10%;" class="col ptext">
-          <!-- <div class="ptext"> -->
           <span style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
             <img src="./img/tab_logo.png">
           </span>
             <p class="subtitle">SUBMIT IT FOR<br> EVALUATION</p>
-          <!-- </div> -->
         </div>
         
         <div style="margin-top: 10%;" class="col ptext">
-          <!-- <div class="ptext"> -->
           <span style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
             <img src="./img/tab_logo.png">
           </span>
           <p class="subtitle">RECEIVE CURATED GIFT <br> INSTANTLY!</p>
-        <!-- </div> -->
         </div>
-        <!-- </div> -->
-      <!-- </div>       -->
-    <!-- </div> -->
   </div>
+  </section>
+
+ 
 
 
   <section class="row section section-dark">
     <div class="col">
     <h2 style="text-align: center;" id="about_us">ABOUT US</h2>
     <hr style="background-color: white;">
-    <p>
+    <!-- <p>
       Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
-    </p>
+    </p> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p style="margin: 2rem 10rem;">
+        Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+      </p>
+    </div>
+    <div class="carousel-item">
+      <p style="margin: 2rem 10rem;">
+        Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+      </p>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
   </div>
   </section>
 
@@ -169,11 +184,17 @@
   </div>
 </div>
 
+<div class="pimg2">
+<div class="row">
+  <div class="ptext col">
+      <button id="gift_button" class="border"><a style="text-decoration: none; color: white;" href="gift.html" target="_blank">SEND A GIFT</a></button>
+    </div>
 
-<!-- footer -->
-<!-- Footer --> 
+</div>
 
-<footer style="background-color: grey; color: white;" class="page-footer font-small blue pt-4">
+  <!-- footer -->
+<footer style="opacity: 0.9; background-color: grey; color: white; margin-top: 0;" class="page-footer font-small blue pt-4">
+  
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -199,6 +220,7 @@
     <!-- Copyright -->
 
   </footer>
+</div>
 
   <!-- jquery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
