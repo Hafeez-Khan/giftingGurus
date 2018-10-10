@@ -6,6 +6,8 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#666;
+  /* no horizontal scroll */
+  overflow-x: hidden;
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -82,11 +84,13 @@ body, html{
 
 /*display when hover */
 
-button.how_it_works {
+.how_it_works {
   display: inline-block; 
   border-radius: 50%;
   text-align: center;
   margin: 2rem;
+  padding: 10rem;
+  background-color: green;
 }
 p.show_on_hover {
   opacity: 0; 
@@ -113,6 +117,20 @@ p.show_on_hover:hover {
   margin-right: 15px;
 }
 
+/* circle size and shape */
+.circles_size_position {
+  /*margin-bottom: 10rem;*/
+  background-color: green;
+}
+/* subtitle for 3 pieces */
+.subtitle {
+  color: black; 
+  background-color: white;
+  font-size: 1.1rem;
+  margin-bottom: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
 @media only screen and (max-width: 760px) {
   .under_h5 {
