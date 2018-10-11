@@ -208,6 +208,7 @@ footer {
   margin: 5% 0%;
   text-transform:uppercase;
   color: black; 
+  font-weight: bold; 
   /*background-color: white;*/
   font-size: 1.1rem;
   /*margin-bottom: 20%;*/
@@ -236,5 +237,62 @@ footer {
   .under_h5 {
     margin-right: 20rem;
     margin-left: 20rem;
+  }
+}
+
+/*hover over element*/
+
+/* dont show p initially */
+.show_p_on_hover {
+  display: none;
+  font-weight: 700;
+  color: white;
+}
+
+/* if hoverd over button */
+.animate_btn_on_hover:hover {
+  background-color: black;
+  animation: change_opacity; 
+  animation-duration: 1s; 
+  opacity: 0.9;
+}
+
+/* if hover over butt blur image */
+.animate_btn_on_hover:hover > .blur_img {
+   /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+/* when hover over button, show paragraph */
+.animate_btn_on_hover:hover > .show_p_on_hover {
+  position: absolute;
+  display: block;
+
+  animation: slideUp;
+  animation-duration: 1s;
+
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* slides element up */
+@keyframes slideUp {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+/* changes opacity of elemnt */
+@keyframes change_opacity {
+  from {
+    opacity: 0.3; 
+  }
+  to {
+    opacity: 0.9; 
   }
 }

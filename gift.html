@@ -19,9 +19,12 @@
 
 </head>
 <body>
+
+<div style="height: 100vh;" class="pimg6">
+
   <!-- navbar -->
   <nav style="opacity: 0.8; width: 100%;" class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="./img/gifting_guru_logo.webp"></a>
+    <a class="navbar-brand" href="./index.html"><img src="./img/gifting_guru_logo.webp"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,58 +32,59 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#gift_button">GIFT <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">GIFT <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about_us">ABOUT</a>
+          <a class="nav-link" href="./index.html#about_us">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact_us">CONTACT</a>
+          <a class="nav-link" href="./index.html#contact_us">CONTACT</a>
         </li>
       </ul>
     </div>
   </nav>
 
+
 <!-- how it works -->
-<section style="margin:2% 0% 20% 0%; background-color: orange;" class="row">
+<section class="row">
   <div style="margin: 1% 0%; text-align: center;" class="col">
     <h2>HOW IT WORKS</h2>
     <hr></div>
-  <div style="width: 100%; margin:0; background-color: green;"  class="row">
+  <div style="width: 100%; margin:0;"  class="row">
     <!-- image 1 -->
-    <div style="background-color: purple; margin: 5%;" class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
-        <img style="margin: 0; width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s1.png">
+    <div style="margin: 5%;" class="spacing-top-bottom col">
+      <button style="padding: 4rem; margin-top: 0;" class="animate_btn_on_hover border trans how_it_works">
+        <img class="blur_img" style="margin: 0; width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s1.png">
+        <p class="show_p_on_hover">FILL OUT A BRIEF PERSONA ABOUT THE PERSON YOU ARE GIFTING TO</p>
       </button>
     </div>
     <!-- image 2 -->
     <div style="margin: 5%;" class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
-        <img style="width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s2.png">
+      <button style="padding: 4rem; margin-top: 0;" class="animate_btn_on_hover border trans how_it_works">
+        <img class="blur_img" style="width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s2.png">
+        <p class="show_p_on_hover">SUBMIT IT FOR EVALUATION</p>
       </button>
     </div>
     <!-- image 3 -->
     <div style="margin: 5%;" class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
-        <img style="width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s3.png">
+      <button style="padding: 4rem; margin-top: 0;" class="animate_btn_on_hover border trans how_it_works">
+        <img class="blur_img" style="width: 100%; height: 100%" src="./img/gifting_imgs/gift_page_s3.png">
+        <p class="show_p_on_hover">RECEIVE PERFECTLY CURATED GIFT RECOMMENDATIONS, INSTANTLY!</p>
       </button>
     </div>
   </div>
 
-
-
 </section>
 
-
   <!-- footer -->
-<footer style="margin: 0; bottom: 0; position: absolute;" class="page-footer">
+<footer style="margin: 0; bottom: 0; width: 100%; opacity: 0.7;" class="page-footer">
   <div style="margin: 0.5% 0%;" class="row">
     <ul class="col inline_ul">
       <li class="inline_li_margin">
-        <img class="footer_logo" src="./img/facebook-logo.png" alt="facebook">
-      </li>
+        <a href="https://www.facebook.com/giftingguru.ca" target="_blank"><img class="footer_logo" src="./img/facebook-logo.png" alt="facebook">
+      </li></a>
       <li class="inline_li_margin">
-        <img class="footer_logo" src="./img/instagram.png" alt="instagram">
+        <a href="https://www.instagram.com/giftingguru.ca/" target="_blank"> <img class="footer_logo" src="./img/instagram.png" alt="instagram"></a>
       </li>
     </ul>
   </div>
@@ -96,7 +100,7 @@
 </footer>
 
 
-
+</div>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
