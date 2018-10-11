@@ -172,7 +172,7 @@ footer {
   opacity: 0.9; 
   background-color: white; 
   color: black; 
-  margin-top: 50%;
+  /*margin-top: 50%;*/
 }
 .under_h5 {
   border: 1px solid white; 
