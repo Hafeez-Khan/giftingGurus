@@ -31,13 +31,13 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li style="margin: 0 2rem;" class="nav-item active">
           <a class="nav-link" href="#gift_button">GIFT <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li style="margin: 0 2rem;" class="nav-item">
           <a class="nav-link" href="#about_us">ABOUT</a>
         </li>
-        <li class="nav-item">
+        <li style="margin: 0 2rem;" class="nav-item">
           <a class="nav-link" href="#contact_us">CONTACT</a>
         </li>
       </ul>
@@ -46,17 +46,17 @@
 
   <section class="ptext">
     <blockquote style="font-size: 2.5rem; font-color:black; margin-bottom: 5%; margin-top: 0%;" class="blockquote">
-      <p class="mb-0">Let us Find you a GIFT.</p>
+      <p class="mb-0">Let us Find you a GIFT</p>
     </blockquote>
-    <button id="gift_button" class="border"><a style="text-decoration: none; color: white;" href="gift.html" target="_blank">START GIFTING</a></button>
+    <button id="gift_button" class="border"><a style="text-decoration: none; color: white;" href="gift.html">START GIFTING</a></button>
   </section>
 </div>
 
 <!-- how it works -->
 <section style="width: 100%; margin: 0; text-align: center;" class="section section-light row">
-  <div style="margin: 1% 0%;" class="col">
-  <h2>HOW IT WORKS</h2>
-  <hr></div>
+  <div style="margin: 2% 0%;" class="col">
+    <h2>HOW IT WORKS</h2>
+  </div>
   <div style="width: 100%; margin:0;"  class="row">
     <!-- image 1 -->
     <div class="spacing-top-bottom col">
@@ -84,7 +84,7 @@
 
 <!-- VIDEO -->
 <section style="width: 100%; height: 100%; margin:0;" class="pimg6 row">
-  <video style="display: block; margin: 0 auto;" src="./video/GG_VIDEO.mov" controls autoplay loop></video>
+  <video style="display: block; margin: 0 auto;" src="./video/GG_VIDEO.mov" autoplay loop></video>
 </section>
 
 <!-- ABOUT US / OUR STORY CAROUSEL -->
@@ -99,7 +99,6 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h2 style="text-align: center;" id="about_us">ABOUT US</h2>
-          <hr style="background-color: white;">
           <p style="margin: 3% 10%">
             Gifting Guru is a gifting tech platform that generates instant gift recommendations for everyone on your shopping list. We value the idea of spreading love through gift giving and struggling to find a gift should never be a reason not to gift. Let us give you the gift idea, you do the spreading of love. Our gift recommendations are hand picked products and services that are trendy, relevant and sure to be loved by your giftee, guaranteed!
           </p>
@@ -107,7 +106,6 @@
         <!-- OUR STORY -->
         <div class="carousel-item">
           <h2 style="text-align: center;" id="about_us">OUR STORY</h2>
-          <hr style="background-color: white;">
           <p style="margin: 3% 10%">
             Gifting guru was founded by Ryerson University Business student Safiyyah Idroos, in the Sandbox, DMZ incubator. She incorporated her passion for gift giving and expertise in entrepreneurship to create a platform to aid others in the art of gifting. Gifting Guru started as an online platform specializing in curated gift baskets. As Safiyyah realized her strong passion for gift giving and that she had an eye for picking gifts out that her giftee loved, she transitioned the company to provide a service to help anyone find the perfect gift for whomever they are gifting to.
 ​
@@ -131,8 +129,10 @@
 <section style="height: 100vh; opacity: 0.8;" class="pimg4">
   <div style="margin: 0;" class="row">
     <div style="margin: 5% 0%;" class="ptext col">
-        <h2 id="contact_us" style="font-weight: 800; line-height: 4rem;  color: white; font-size: 2.5rem;">
+        <h2 id="contact_us" style="margin-bottom: 1rem; font-weight: 800; line-height: 4rem;  color: white; font-size: 2.5rem;">
           <span style="color:#A01C35;"> FOR ANY INQUIRIES, EMAIL</span><br style="margin-bottom: 1%;">
+        </h2>
+        <h2 style="margin: 0; font-weight: 800; line-height: 2.5rem;  color: white; font-size: 2.5rem;">
           <splan style="color:#313131;">Info@giftingguru.ca <br> Toronto, ON </splan>
         </h2>
     </div>
@@ -140,14 +140,42 @@
 
   <div style="margin: 0; padding: 0;" class="row">
     <div class="ptext col">
-      <button id="gift_button" class="border"><a style="text-decoration: none; margin-top: 0; color: white;" href="gift.html" target="_blank">READY SET GIFT</a></button>
+      <button id="gift_button" class="border"><a style="text-decoration: none; margin-top: 0; color: white;" href="gift.html"">READY SET GIFT</a></button>
     </div>
   </div>
 
 
   <!-- footer -->
 <footer style="margin: 0; bottom: 0; position: absolute;" class="page-footer">
-  <div style="margin: 0.5% 0%;" class="row">
+
+    <ul style="text-align: center; margin: 1% 0%;" class="inline_ul row">
+        <li class="nav-item col">
+          <a class="nav-link" href="#gift_button">GIFT</a>
+        </li>
+        <li class="nav-item col">
+          <a class="nav-link" href="#about_us">ABOUT</a>
+        </li>
+        <li class="nav-item col">
+          <a class="nav-link" href="#contact_us">CONTACT</a>
+        </li>
+      </ul>
+
+
+  <!-- <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#gift_button">GIFT <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_us">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact_us">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+ -->
+  <div style="margin: 1% 0%;" class="row">
     <ul class="col inline_ul">
       <li class="inline_li_margin">
         <!-- (facebook.com/giftingguru.ca, Instagram.com/giftingguru.ca) -->
@@ -158,7 +186,7 @@
       </li>
     </ul>
   </div>
-  <div style="margin:0%; text-align: center;" class="row">
+  <div style="margin:1% 0%; text-align: center;" class="row">
     <p style="text-align: center;" class="col">
       "Exchange gifts, as that will lead to increasing your love for one another" [Bukhari]
     </p>
