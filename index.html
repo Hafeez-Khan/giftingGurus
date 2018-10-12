@@ -21,9 +21,9 @@
 <body>
 
 
-<div style="width:100%;" class="pimg5">
+<div class="pimg5">
   <!-- navbar -->
-  <nav style="opacity: 0.8; width: 100%;" class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav style="opacity: 0.8; width: 100%;" class="navbar navbar-expand-lg navbar-light bg-light row">
     <a class="navbar-brand" href="#"><img src="./img/gifting_guru_logo.webp"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,59 +46,55 @@
 
   <section class="ptext">
     <blockquote style="font-size: 2.5rem; font-color:black; margin-bottom: 5%; margin-top: 0%;" class="blockquote">
-      <p class="mb-0">Let us Find you a GIFT</p>
+      <p class="mb-0 font_let_us">Let us Find you a GIFT</p>
     </blockquote>
     <button id="gift_button" class="border"><a style="text-decoration: none; color: white;" href="gift.html">START GIFTING</a></button>
   </section>
 </div>
 
 <!-- how it works -->
-<section style="width: 100%; margin: 0; text-align: center;" class="section section-light row">
-  <div style="margin: 2% 0%;" class="col">
-    <h2>HOW IT WORKS</h2>
-  </div>
-  <div style="width: 100%; margin:0;"  class="row">
+<section style="height: 75vh; text-align: center;" id="how_it_works_section" class="pimg6 section section-light row">
+  <div style="margin: 5% 0;" class="row">
     <!-- image 1 -->
-    <div class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
+    <div class="spacing-top-bottom col small_screen_small_size">
+      <button class="border trans how_it_works">
         <img src="./img/gifting_imgs/step_1.png">
       </button>
       <p class="subtitle">NEED A GIFT BUT HAVE<br> NO IDEA WHAT TO GET?</p>
     </div>
     <!-- image 2 -->
-    <div class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
+    <div class="spacing-top-bottom col small_screen_small_size">
+      <button class="border trans how_it_works">
         <img src="./img/gifting_imgs/step_2.png">
       </button>
-      <p class="subtitle">SUBMIT IT FOR<br> EVALUATION</p>
+      <p class="subtitle">OUR GIFTING EXPERTS <br> ARE HERE TO HELP</p>
     </div>
     <!-- image 3 -->
-    <div class="spacing-top-bottom col">
-      <button style="padding: 4rem; margin-top: 0;" class="border trans how_it_works">
+    <div class="spacing-top-bottom col small_screen_small_size">
+      <button class="border trans how_it_works">
         <img src="./img/gifting_imgs/step_3.png">
       </button>
-      <p class="subtitle">RECEIVE CURATED GIFT <br> INSTANTLY!</p>
+      <p class="subtitle">RECEIVE PERFECTLY CURATED <br> GIFT INSTANTLY!</p>
     </div>
   </div>
 </section>
 
 <!-- VIDEO -->
-<section style="width: 100%; height: 100%; margin:0;" class="pimg6 row">
+<!-- <section style="width: 100%; height: 100%; margin:0;" class="pimg6 row">
   <video style="display: block; margin: 0 auto;" src="./video/GG_VIDEO.mov" autoplay loop></video>
-</section>
+</section> -->
 
 <!-- ABOUT US / OUR STORY CAROUSEL -->
-<section style="margin: 0;" class="row section section-dark">
-  <div style="margin: 5% 0%;" class="col">
+<section id="carousel_place" class="section section-dark row ">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li style="border-radius: 50%; width: 5px; height: 5px;" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li style="border-radius: 50%;width: 5px; height: 5px;" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <!-- ABOUT US -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2 style="text-align: center;" id="about_us">ABOUT US</h2>
+          <h2 style="text-align: center;" id="about_us">THE PLATFORM</h2>
           <p style="margin: 3% 10%">
             Gifting Guru is a gifting tech platform that generates instant gift recommendations for everyone on your shopping list. We value the idea of spreading love through gift giving and struggling to find a gift should never be a reason not to gift. Let us give you the gift idea, you do the spreading of love. Our gift recommendations are hand picked products and services that are trendy, relevant and sure to be loved by your giftee, guaranteed!
           </p>
@@ -122,35 +118,28 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  </div>
 </section>
 
 <!-- CONTACT -->
-<section style="height: 100vh; opacity: 0.8;" class="pimg4">
-  <div style="margin: 0;" class="row">
-    <div style="margin: 5% 0%;" class="ptext col">
-        <h2 id="contact_us" style="margin-bottom: 1rem; font-weight: 800; line-height: 4rem;  color: white; font-size: 2.5rem;">
-          <span style="color:#A01C35;"> FOR ANY INQUIRIES, EMAIL</span><br style="margin-bottom: 1%;">
-        </h2>
-        <h2 style="margin: 0; font-weight: 800; line-height: 2.5rem;  color: white; font-size: 2.5rem;">
-          <splan style="color:#313131;">Info@giftingguru.ca <br> Toronto, ON </splan>
-        </h2>
-    </div>
+<section style="height: 100vh;" class="pimg6 row"> 
+  <div style="margin-top: 10%; margin-bottom: 4%;" class="col-12 center_my_col">
+    <h2 id="contact_us" class="contact_style" style="color:#A01C35;">FOR ANY INQUIRIES, EMAIL</h2>
+    <h2 class="contact_style" style="line-height: 3rem; color:#313131;">
+          Info@giftingguru.ca <br> Toronto, ON
+    </h2>
   </div>
 
-  <div style="margin: 0; padding: 0;" class="row">
-    <div class="ptext col">
-      <button id="gift_button" class="border"><a style="text-decoration: none; margin-top: 0; color: white;" href="gift.html"">READY SET GIFT</a></button>
-    </div>
+  <div style="margin-bottom: 10%;" class="col-12 center_my_col">
+      <button id="gift_button" class="border"><a style="text-decoration: none; margin-top: 0; color: white;" href="gift.html"">READY, SET, GIFT</a></button>
   </div>
 
 
   <!-- footer -->
-<footer style="margin: 0; bottom: 0; position: absolute;" class="page-footer">
+<footer style="margin: 0; bottom: 0; position: relative; opacity: 0.9;" class="section-light page-footer col-12">
 
     <ul style="text-align: center; margin: 1% 0%;" class="inline_ul row">
         <li class="nav-item col">
-          <a class="nav-link" href="#gift_button">GIFT</a>
+          <a class="nav-link" href="./gift.html">GIFT</a>
         </li>
         <li class="nav-item col">
           <a class="nav-link" href="#about_us">ABOUT</a>
@@ -160,25 +149,10 @@
         </li>
       </ul>
 
-
-  <!-- <div class="collapse navbar-collapse row" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#gift_button">GIFT <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about_us">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact_us">CONTACT</a>
-        </li>
-      </ul>
-    </div>
- -->
+  <!-- logo for facebook and instagram -->
   <div style="margin: 1% 0%;" class="row">
     <ul class="col inline_ul">
       <li class="inline_li_margin">
-        <!-- (facebook.com/giftingguru.ca, Instagram.com/giftingguru.ca) -->
         <a href="https://www.facebook.com/giftingguru.ca" target="_blank"><img class="footer_logo" src="./img/facebook-logo.png" alt="facebook"></a>
       </li>
       <li class="inline_li_margin">
@@ -193,7 +167,7 @@
   </div>
   <!-- Copyright -->
   <div style="margin: 0.5% 0%; text-align: center;" class="footer-copyright">
-    Copyright 2018 by Gifting Guru
+      &copy; 2018 by Gifting Guru
   </div>
 </footer>
 </section>
